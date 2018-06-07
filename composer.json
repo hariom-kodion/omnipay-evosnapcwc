@@ -1,0 +1,32 @@
+{
+    "name":"hariom-kodion/omnipay-evosnap",
+    "authors": [
+        {
+            "name":"Harry Karwal",
+            "email":"hariom.kodion@gmail.com"
+        }
+    ],
+    "version":"1.0.0",
+    "description":"Evosnap Payment Module",
+    "type":"library",
+    "license":"MIT",
+    "minimum-stability": "dev",
+    "homepage":"https://github.com/hariom-kodion/omnipay-evosnap.git",
+    "repositories": [
+        {
+            "type":"vcs",
+            "url":"https://github.com/EVO-Snap/PHP-CWS-lib"
+        },
+        {
+            "type":"vcs",
+            "url":"https://github.com/EVO-Snap/PHP-HostedPayments-lib"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\EvoSnap\\":"src/"
+        }
+    },
+    "require": {
+    }
+}
